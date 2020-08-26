@@ -1,0 +1,8 @@
+<resources>
+    <declare-styleable name="View">
+        <attr name="nextFocusUpRight" format="integer" />
+        <attr name="nextFocusUpLeft" format="integer" />
+        <attr name="nextFocusDownRight" format="integer" />
+        <attr name="nextFocusDownLeft" format="integer" />
+    </declare-styleable>
+</resources>

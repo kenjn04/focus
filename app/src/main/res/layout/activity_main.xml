@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rootView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <com.sample.myapplication.FocusImageView
+                android:id="@+id/icon00"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:focusable="true"
+                android:nextFocusUp="@+id/icon22"
+                android:nextFocusLeft="@+id/icon22"
+                android:nextFocusRight="@+id/icon22"
+                android:nextFocusDown="@+id/icon22"
+                app:nextFocusUpRight="@+id/icon22"
+                app:nextFocusUpLeft="@+id/icon22"
+                app:nextFocusDownRight="@+id/icon22"
+                app:nextFocusDownLeft="@+id/icon22"
+                android:src="@drawable/icon" />
+
+            <com.sample.myapplication.FocusImageView
+                android:id="@+id/icon01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:focusable="true"
+                android:src="@drawable/icon" />
+
+            <com.sample.myapplication.FocusImageView
+                android:id="@+id/icon02"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:focusable="true"
+                android:src="@drawable/icon" />
+
+            <com.sample.myapplication.FocusImageView
+                android:id="@+id/icon03"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:focusable="true"
+                android:src="@drawable/icon" />
+
+            <com.sample.myapplication.FocusImageView
+                android:id="@+id/icon04"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:focusable="true"
+                android:src="@drawable/icon" />
+
+            <com.sample.myapplication.FocusImageView
+                android:id="@+id/icon05"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:focusable="true"
+                android:src="@drawable/icon" />
+
+            <com.sample.myapplication.FocusImageView
+                android:id="@+id/icon06"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:focusable="true"
+                android:src="@drawable/icon" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <com.sample.myapplication.FocusImageView
+                android:id="@+id/icon10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:focusable="true"
+                android:src="@drawable/icon" />
+
+            <com.sample.myapplication.FocusImageView
+                android:id="@+id/icon11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:focusable="true"
+                android:src="@drawable/icon" />
+
+            <com.sample.myapplication.FocusImageView
+                android:id="@+id/icon12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:focusable="true"
+                android:src="@drawable/icon" />
+
+            <com.sample.myapplication.FocusImageView
+                android:id="@+id/icon13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:focusable="true"
+                android:src="@drawable/icon" />
+
+            <com.sample.myapplication.FocusImageView
+                android:id="@+id/icon14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:focusable="true"
+                android:src="@drawable/icon" />
+
+            <com.sample.myapplication.FocusImageView
+                android:id="@+id/icon15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:focusable="true"
+                android:src="@drawable/icon" />
+
+            <com.sample.myapplication.FocusImageView
+                android:id="@+id/icon16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:focusable="true"
+                android:src="@drawable/icon" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <com.sample.myapplication.FocusImageView
+                android:id="@+id/icon20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:focusable="true"
+                android:src="@drawable/icon" />
+
+            <com.sample.myapplication.FocusImageView
+                android:id="@+id/icon21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:focusable="true"
+                android:src="@drawable/icon" />
+
+            <com.sample.myapplication.FocusImageView
+                android:id="@+id/icon22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:focusable="true"
+                android:src="@drawable/icon" />
+
+            <com.sample.myapplication.FocusImageView
+                android:id="@+id/icon23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:focusable="true"
+                android:src="@drawable/icon" />
+
+            <com.sample.myapplication.FocusImageView
+                android:id="@+id/icon24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:focusable="true"
+                android:src="@drawable/icon" />
+
+            <com.sample.myapplication.FocusImageView
+                android:id="@+id/icon25"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:focusable="true"
+                android:src="@drawable/icon" />
+
+            <com.sample.myapplication.FocusImageView
+                android:id="@+id/icon26"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:focusable="true"
+                android:src="@drawable/icon" />
+        </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>
